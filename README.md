@@ -1,16 +1,39 @@
-# frontend
+# Chatonic AI
 
-A new Flutter project.
+Chatonic AI is a simple AI chatbot app made using Flutter and Django.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Chat with AI
+- Simple and clean UI
+- Fast responses
+- Flutter frontend
+- Django backend
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Django
+- Python
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Project
+
+### Frontend
+
+```bash
+flutter pub get
+flutter run
+```
+
+### Backend
+
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+## About
+
+This project was built to learn stitch google.
